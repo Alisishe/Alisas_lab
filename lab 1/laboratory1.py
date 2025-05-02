@@ -2,7 +2,7 @@
 
 # VAR1
 
-def reccurent_rel(n, k):
+def reccur(n, k):
     F = [0] * (n + 1)
 
     F[1] = 1
@@ -16,7 +16,7 @@ def reccurent_rel(n, k):
 n = 9
 k = 3
 
-result = reccurent_rel(n, k)
+result = reccur(n, k)
 print(f"число кроличьих пар на {n} месяц: {result}")
 
 
